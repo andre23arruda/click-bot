@@ -62,14 +62,14 @@ python main.py
 ```
 
 
-<p align="center">
+<div align="center">
     <img alt="Coordinates" title="Coordinates" src=".github/video-1.gif?raw=true" width="600px" />
-</p>
+</div>
 <p align="center">Gravando coordenadas</p>
 
 <br>
 
-<p align="center">
+<div align="center">
     <img alt="Clicks" title="Clicks" src=".github/video-2.gif?raw=true" width="600px" />
-</p>
+</div>
 <p align="center">Executando cliques</p>
