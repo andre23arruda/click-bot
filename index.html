@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Clicks</title>
+
+    <style>
+        html, body {
+            height: 100vh;
+            background-color: rgb(107, 107, 107);
+            margin: 0;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        button {
+            border: none;
+            padding: 25px;
+            cursor: pointer;
+            transition: 0.2s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <button class="button">Button 1</button>
+
+        <button class="button">Button 2</button>
+
+        <button class="button">Button 3</button>
+    </main>
+
+    <script>
+        const buttons = document.querySelectorAll('.button')
+        buttons.forEach(button => {
+            button.addEventListener('click', () => console.log(`Clicou em ${ button.innerHTML }`))
+        })
+
+    </script>
+</body>
+</html>
